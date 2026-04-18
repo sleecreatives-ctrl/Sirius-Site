@@ -156,17 +156,17 @@ footer { border-top: 1px solid var(--border); padding: 1.75rem var(--pad-x); dis
       <div class="contact-options">
         <div class="contact-option">
           <span class="contact-type">General inquiries</span>
-          <a href="mailto:samleebu12@gmail.com" class="contact-value">samleebu12@gmail.com</a>
+          <a href="mailto:siriusaihelp@gmail.com" class="contact-value">siriusaihelp@gmail.com</a>
           <span class="contact-note">Questions, feedback, anything else</span>
         </div>
         <div class="contact-option">
           <span class="contact-type">Enterprise & Partnerships</span>
-          <a href="mailto:samleebu12@gmail.com" class="contact-value">samleebu12@gmail.com</a>
+          <a href="mailto:siriusaihelp@gmail.com" class="contact-value">siriusaihelp@gmail.com</a>
           <span class="contact-note">Healthcare integrations, B2B licensing, partnerships</span>
         </div>
         <div class="contact-option">
           <span class="contact-type">Support</span>
-          <a href="mailto:samleebu12@gmail.com" class="contact-value">samleebu12@gmail.com</a>
+          <a href="mailto:siriusaihelp@gmail.com" class="contact-value">siriusaihelp@gmail.com</a>
           <span class="contact-note">Account issues, billing, technical problems</span>
         </div>
       </div>
@@ -183,11 +183,11 @@ footer { border-top: 1px solid var(--border); padding: 1.75rem var(--pad-x); dis
     <div class="form-grid">
       <div class="form-field">
         <label for="fname">First name</label>
-        <input type="text" id="fname" placeholder="Samuel"/>
+        <input type="text" id="fname" placeholder="John"/>
       </div>
       <div class="form-field">
         <label for="lname">Last name</label>
-        <input type="text" id="lname" placeholder="Lee"/>
+        <input type="text" id="lname" placeholder="Smith"/>
       </div>
     </div>
 
@@ -268,7 +268,7 @@ async function submitForm() {
   msg.innerHTML = '';
 
   // Send via mailto as fallback (replace with your email API when ready)
-  const mailtoLink = `mailto:samleebu12@gmail.com?subject=${encodeURIComponent(`[Sirius Contact] ${subject} — ${fname} ${lname}`)}&body=${encodeURIComponent(`From: ${fname} ${lname}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`)}`;
+  const mailtoLink = `mailto:siriusaihelp@gmail.com?subject=${encodeURIComponent(`[Sirius Contact] ${subject} — ${fname} ${lname}`)}&body=${encodeURIComponent(`From: ${fname} ${lname}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`)}`;
 
   // Simulate send (replace with fetch to your email endpoint when ready)
   setTimeout(() => {
